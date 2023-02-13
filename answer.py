@@ -11,12 +11,12 @@ def number():
     # Write the value 4 to the power of 5 and assign it to variable x.
     x = 4**5
     print(x)
-    x = 1024
+   
     
     # Write the value x divided by 3 and assign it to variable y.
     y = x/3
     print(y)
-    y = 341.3333333333333
+    
     return x,y
 
 def strings():
@@ -28,33 +28,33 @@ def strings():
 
     stevens = "stevens"
     print (stevens)
-    stevens
+    
 
     # Repeat variable stevens 7 times and assign it to variable stevens_7.
 
     stevens_7 = stevens * 7
     print (stevens_7)
-    stevensstevensstevensstevensstevensstevensstevens
+    
     
 
     # What is the length of stevens_7?
 
     length = len(stevens_7)
     print(length)
-    49
+    
     
 
     # Concatenate variable stevens with string " is great" and assign it to variable great.
 
     great = "stevens" + " is great"
     print(great)
-    stevens is great
+    
 
     # Replace "great" with "good" in variable great and assign it to a new variable good.
 
     good = great.replace("great", "good")
     print(good)
-    stevens is good
+    
 
     return stevens, stevens_7, length, great, good
 
@@ -67,13 +67,13 @@ def list_1D():
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
 
     hoboken = s.strip()
-    "hoboken,is,awesome,i,like,it"
+    
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
     hoboken_list = hoboken.split(",")
     print(hoboken_list)
-    ["hoboken", "is", "awesome", "i", "like", "it"]
+    
 
     # Get the first item in the hoboken_list and assign it to a new variable hoboken_first_item.
 
@@ -86,7 +86,7 @@ def list_1D():
     # Inplace sort list l (use .sort() ).
     l.sort()
     print(l)
-    [-6, -2, 0, 0, 1, 2, 3, 4, 5, 6, 9, 10, 12, 13, 15]
+    
     
 
 
@@ -94,7 +94,7 @@ def list_1D():
 
     new_l = l[3:10]
     print(new_l)
-    [1,2,3,4,5,6]
+    
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
@@ -106,25 +106,25 @@ def list_2D():
 
     A = [[1,4,5],[6,10,11], [12,17,38]]
     print(A)
-    [[1,4,5], [6,10,11], [12,17,38]]
+    
 
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
     last_column = [row[-1] for row in A]
     print(last_column)
-    [5,11,38]
+    
 
     # Get the item at the last row and last column of A.
 
     a = A[-1][-1]
     print (a)
-    38
+    
 
     # Get the item at row 2 and column 1 of A.
 
     b = A[1][0]
     print(b)
-    6
+    
 
 
     return A,last_column, a, b
@@ -140,7 +140,7 @@ def dictionary():
     #   "color" => "red"
     fruit_dict = {"fruit": "apple", "quantity": 18, "color": "red"}
     print(fruit_dict)
-    {"fruit":"apple", "quantity": 18, "color": "red"}
+    
     
     
     # Get the item in dictionary fruit_dict that the key "fruit" maps to.
@@ -152,7 +152,7 @@ def dictionary():
     # Increase the value that key "quantity" map to by 1.
     fruit_dict["quantity"] += 1
     print(fruit_dict)
-    {"fruit":"apple", "quantity": 19, "color": "red"}
+    
 
 
     return fruit_dict, f
@@ -173,12 +173,12 @@ def dictionary_nested():
 
     last_name = Grace["name"]["last_name"]
     print(last_name)
-    "Hopper"
+    
 
     # Add "programmer" to the list that key "jobs" maps to.
     Grace["jobs"].append("programmer")
     print(Grace)
-    {'name': {'first_name': 'Grace', 'last_name': 'Hoppper'}, 'jobs': ['scientist', 'engineer', 'programmer'], 'age': 85}
+    
 
 
 
@@ -186,7 +186,7 @@ def dictionary_nested():
     
     job = Grace["jobs"][2]
     print(job)
-    "programmer"
+   
 
 
 
