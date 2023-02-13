@@ -67,7 +67,7 @@ def list_1D():
     #Remove whitespace characters on both side and assign it to a new variable hoboken.
 
     hoboken = s.strip()
-    hoboken,is,awesome,i,like,it
+    "hoboken,is,awesome,i,like,it"
 
     # Split variable hoboken on a delimiter(comma) into a list of substrings and assign it to a new variable hoboken_list.
 
