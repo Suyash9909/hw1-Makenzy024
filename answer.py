@@ -148,7 +148,7 @@ def dictionary():
     f = fruit_dict["fruit"]
     print(f)
     apple
-Get the item in dictionary fruit_dict that the key "fruit" maps to
+    #Get the item in dictionary fruit_dict that the key "fruit" maps to
     # Increase the value that key "quantity" map to by 1.
     fruit_dict["quantity"] += 1
     print(fruit_dict)
