@@ -111,20 +111,20 @@ def list_2D():
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
     last_column = [row[-1] for row in A]
-         print(last_column)
-         [5,11,38]
+    print(last_column)
+    [5,11,38]
 
     # Get the item at the last row and last column of A.
 
     a = A[-1][-1]
-         print (a)
-         38
+    print (a)
+    38
 
     # Get the item at row 2 and column 1 of A.
 
     b = A[1][0]
-         print(b)
-         6
+    print(b)
+    6
 
 
     return A,last_column, a, b
