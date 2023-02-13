@@ -150,7 +150,7 @@ def dictionary():
     apple
 Get the item in dictionary fruit_dict that the key "fruit" maps to
     # Increase the value that key "quantity" map to by 1.
-    fruit_dict[quantity"] += 1
+    fruit_dict["quantity"] += 1
     print(fruit_dict)
     {"fruit":"apple", "quantity": 19, "color": "red"}
 
